@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.md-calculator{
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 1px 1px 20px 1px cornflowerblue;
+    border-radius: 1px;
+    margin: 50px auto;
+}
+input {
+     margin: 13px;
+     /*padding: 0px;*/
+     /*border: 10px;*/
+     height: 35px;
+     width: 90%;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin-top: 25px;
+     margin-bottom: 20px;
+    text-align: right;
+    color: black;
+    font-size: 15px;
+    outline: inherit;
+}
+
+.button {
+    float: left;
+    width: 50px;
+    height:50px;
+    border-radius: 5px;
+    border-bottom-style: solid;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    color: black;
+    margin: 11px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: darkgray;
+}
